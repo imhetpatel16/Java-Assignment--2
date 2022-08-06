@@ -1,0 +1,22 @@
+// Name :- Het Patel   ID :- 21CE091
+
+
+package com.company;
+
+public class pra_2_main {
+    public static void main(String[] args) {
+
+        pra_2 ace = new pra_2();  // create object of class file
+
+// for printing call method
+
+        System.out.println("Annual Interest -> "+ace.getAnnual() + "%");
+        System.out.println("Balance -> "+ace.getBalance());
+        System.out.println("Id -> "+ace.getId());
+        System.out.println("Date -> "+ace.getDate());
+        System.out.println("Monthly Interest Rate -> "+ace.getMonthlyrate());
+        System.out.println("Get Monthly Interest -> "+ace.getMonthlyinterest());
+        System.out.println("Balance After Deposit  -> "+ace.deposit(1000));
+        System.out.println("Balance After Withdraw -> "+ace.withdraw(1250));
+    }
+}
